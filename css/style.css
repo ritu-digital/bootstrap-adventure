@@ -4,13 +4,36 @@
   box-sizing: border-box;
   font-family: "Mate SC", serif;
 }
+
 .carousel-item img {
   width: 100%;
   height: 90vh;
 }
+.services .row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row.ser {
+  --bs-gutter-x: 0;
+}
+
+.services img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
 .about_img {
   min-width: 100%;
   max-width: 280px;
+}
+
+.offer_style {
+  background-color: #a6dcef;
+}
+footer p {
+  margin-bottom: 0;
 }
 /* .second-img img {
   display: block;
